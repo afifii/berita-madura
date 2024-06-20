@@ -1,0 +1,168 @@
+[20-Jun-2024 15:16:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Jun-2024 15:16:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Jun-2024 15:18:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:19:39 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Jun-2024 15:19:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:23:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:35:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:36:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:36:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:36:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:45:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:59:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:59:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 15:59:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
