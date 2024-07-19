@@ -13,6 +13,37 @@ add_action( 'wp_enqueue_scripts', 'theme_files' );
 //Title Tag Support
 add_theme_support( 'title-tag' );
 
+function your_theme_name_widgets_init() {
+  register_sidebar( array(
+      'name'          => 'Footer 1',
+      'id'            => 'footer-1',
+      'before_widget' => '<div class="footer-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+  ) );
+
+  register_sidebar( array(
+      'name'          => 'Footer 2',
+      'id'            => 'footer-2',
+      'before_widget' => '<div class="footer-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+  ) );
+
+  register_sidebar( array(
+      'name'          => 'Footer 3',
+      'id'            => 'footer-3',
+      'before_widget' => '<div class="footer-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>',
+  ) );
+}
+add_action( 'widgets_init', 'your_theme_name_widgets_init' );
+
+
 /**
  * Add HTML5 theme support.
  */

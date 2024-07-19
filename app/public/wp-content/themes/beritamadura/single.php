@@ -9,10 +9,10 @@
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <header class="entry-header">
                         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-                        <div class="mt-4 mb-2">
+                        <div class="mt-4 mb-4">
                             <img class="rounded-pill" src="<?php echo get_avatar_url( get_the_author_meta( 'ID' ), ['size' => 32] ); ?>" alt="">
                             <span class="text-muted">by </span>
-                            <span class="text-decoration-none text-danger"><?php echo __('', 'textdomain'); ?><?php the_author_posts_link(); ?></span>
+                            <span class="text-danger"><?php echo __('', 'textdomain'); ?><?php the_author_posts_link(); ?></span>
                             <span><?php echo get_the_author_meta( 'description' ); ?></span>
                             <span><?php echo __('-', 'textdomain'); ?><?php echo get_the_date(); ?></span>
                             <span class="text-decoration-none"><?php the_tags( __(' in ', 'textdomain'), ', ', '<br />' ); ?></span>
@@ -44,9 +44,8 @@
             endwhile;
         endif;
         ?>
-
     </div>
 </section>
 
-<!--<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

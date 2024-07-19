@@ -73,3 +73,10 @@ ul.dropdown-menu{
     height: 160px;
     overflow: hidden;
 }
+a {
+    color: rgb(0 0 0) !important;
+    text-decoration: none !important;
+}
+.entry-content {
+    text-align: justify;
+}
