@@ -166,3 +166,367 @@ Stack trace:
 #6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
 #7 {main}
   thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 16:35:56 UTC] PHP Fatal error:  Uncaught Error: Class "Custom_Walker_Nav_Menu" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php on line 23
+[20-Jun-2024 16:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Custom_Walker_Nav_Menu" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php on line 23
+[20-Jun-2024 16:37:06 UTC] PHP Fatal error:  Uncaught Error: Class "Custom_Walker_Nav_Menu" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php on line 23
+[20-Jun-2024 16:45:24 UTC] PHP Fatal error:  Uncaught Error: Class "Custom_Walker_Nav_Menu" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura-tema\header.php on line 23
+[20-Jun-2024 16:47:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Jun-2024 16:47:24 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[20-Jun-2024 16:48:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[29-Jun-2024 09:16:24 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[29-Jun-2024 09:16:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Jun-2024 09:16:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:23
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 23
+[29-Jun-2024 10:44:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\includes\translation-install.php on line 68
+[29-Jun-2024 17:00:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:26
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 26
+[29-Jun-2024 17:00:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:26
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 26
+[29-Jun-2024 17:00:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "url" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php:26
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#7 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php on line 26
+[29-Jun-2024 17:39:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Jun-2024 17:41:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Jun-2024 07:07:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enwueue_script() in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php:10
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): theme_files('')
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\header.php(9): wp_head()
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Hafifi...')
+#10 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Hafifi...', true, Array)
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php(1): get_header()
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Hafifi...')
+#14 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#15 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#16 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php on line 10
+[07-Jul-2024 12:07:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:07:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:07:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:07:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:06 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:16 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:11:22 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[07-Jul-2024 12:14:03 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 17
+[09-Jul-2024 15:12:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:13:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:13:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:13:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>This is an e...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/2?...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:14:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:14:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:15:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Welcome to W...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/1?...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:15:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/46...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post-new.php(72): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[09-Jul-2024 15:17:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "new_excerpt_more" not found or invalid function name in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(' [&hellip;]', Array)
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\formatting.php(4028): apply_filters('excerpt_more', ' [&hellip;]')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php(324): wp_trim_excerpt('<p>Isi Postinga...', Object(WP_Post))
+#3 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1876): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#6 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#7 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#8 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(555): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\rest-api.php(2922): rest_do_request(Object(WP_REST_Request))
+#10 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#11 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\block-editor.php(753): array_reduce(Array, 'rest_preload_ap...', Array)
+#12 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#13 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-admin\post.php(187): require('C:\\Users\\Hafifi...')
+#14 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Jul-2024 05:18:54 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\update.php on line 449
+[10-Jul-2024 05:19:11 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:19:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Jul-2024 05:19:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Jul-2024 05:19:49 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:19:55 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:19:57 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:00 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:02 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:04 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:06 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:19 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:20:23 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[10-Jul-2024 05:22:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jul-2024 08:32:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 08:34:21 UTC] PHP Warning:  Undefined variable $category in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 08:34:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 08:37:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 09:28:01 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 09:29:57 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 45
+[10-Jul-2024 09:30:15 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 45
+[10-Jul-2024 09:30:25 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 45
+[10-Jul-2024 09:32:52 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 09:33:51 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 09:34:21 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[10-Jul-2024 09:34:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 46
+[18-Jul-2024 02:18:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Jul-2024 02:20:26 UTC] PHP Fatal error:  Cannot redeclare set_tag() (previously declared in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\functions.php:487) in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\magezix\lib\ocdi\functions.php on line 62
+[18-Jul-2024 02:20:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[18-Jul-2024 02:20:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[18-Jul-2024 02:33:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Jul-2024 02:37:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Jul-2024 02:57:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Jul-2024 03:25:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php on line 33
+[18-Jul-2024 03:25:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php on line 33
+[18-Jul-2024 03:26:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php on line 33
+[18-Jul-2024 03:26:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\functions.php on line 33
+[18-Jul-2024 06:01:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sigle_cat_title() in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\category.php:5
+Stack trace:
+#0 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hafifi...')
+#2 C:\Users\Hafifi\Local Sites\beritamadura\app\public\index.php(17): require('C:\\Users\\Hafifi...')
+#3 {main}
+  thrown in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\category.php on line 5
+[19-Jul-2024 04:11:54 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Hafifi\Local Sites\beritamadura\app\public\wp-content\themes\beritamadura\index.php on line 237

@@ -1,0 +1,75 @@
+/*
+Theme Name: Nama Tema Anda
+Theme URI: http://contoh.com
+Author: Nama Anda
+Author URI: http://contoh.com
+Description: Deskripsi Tema Anda
+Version: 1.0
+*/
+
+@font-face {
+    font-family: 'Patua One';
+    src: url('fonts/PatuaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+body {
+    background-color: #fff !important;
+    padding-top: 60px;
+}
+.dropdown-menu{
+    font-size: small !important;
+}
+.navbar-brand img{
+    width: 160px;
+}
+.navbar .navbar-toggler {
+    font-size: small;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(188 34 47) !important;
+}
+ul.dropdown-menu{
+    width: 250px !important;
+}
+.overlay {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+.captcontainer {
+    z-index: 2;
+}
+.carousel-caption {
+    right: 15% !important;
+    left: 1.5rem !important;
+    padding-bottom: 0 !important;
+}
+.carousel-caption h3{
+    font-family: 'Patua One', serif;
+}
+.subtitle{
+    font-family: 'Patua One', serif;
+    margin-left: 1rem;
+}
+.carousel-item {
+    height: 450px; /* Atur tinggi sesuai kebutuhan */
+    overflow: hidden;
+}
+.img-thumb {
+    height: 80px;
+    overflow: hidden;
+}
+.img-thumb2 {
+    height: 160px;
+    overflow: hidden;
+}
