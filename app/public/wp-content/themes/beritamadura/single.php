@@ -15,7 +15,6 @@
                             <span class="text-danger"><?php echo __('', 'textdomain'); ?><?php the_author_posts_link(); ?></span>
                             <span><?php echo get_the_author_meta( 'description' ); ?></span>
                             <span><?php echo __('-', 'textdomain'); ?><?php echo get_the_date(); ?></span>
-                            <span class="text-decoration-none"><?php the_tags( __(' in ', 'textdomain'), ', ', '<br />' ); ?></span>
                         </div>
                     </header><!-- .entry-header -->
 
@@ -44,6 +43,7 @@
             endwhile;
         endif;
         ?>
+		<span class="text-decoration-none"><?php the_tags( __(' in ', 'textdomain'), ', ', '<br />' ); ?></span>
     </div>
 </section>
 

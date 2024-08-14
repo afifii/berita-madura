@@ -28,7 +28,7 @@
         ?>
             <a href="<?php the_permalink(); ?>" class="list-group-item list-group-item-action border-0 small">
                 <div class="row align-items-center my-2">
-                    <div class="col-3">
+                    <div class="col-sm-6 col-md-3 col-xl-3">
                         <?php
                         if (has_post_thumbnail()) { ?>
                             <img class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
@@ -36,7 +36,7 @@
                             <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
                         <?php } ?>
                     </div>
-                    <div class="col-9">
+                    <div class="col-sm-6 col-md-9 col-xl-9">
                         <h5> <?php echo get_the_title(); ?> </h5>
                         <p class="fs-6"> <?php the_excerpt(); ?> </p>
                         <div class="d-flex justify-content-between align-items-center">

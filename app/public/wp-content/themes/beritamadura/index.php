@@ -2,7 +2,7 @@
 
 <section class="default-holder mt-4">
     <div class="container">
-        <div class="row">
+        <div class="row border-bottom">
             <div class="col-lg-8 col-md-8 mb-4">
                 <?php
                 // Query untuk mengambil 5 post terbaru untuk carousel
@@ -20,29 +20,23 @@
                                 $active_class = ($i == 0) ? 'active' : '';
                         ?>
                                 <div class="carousel-item <?php echo $active_class; ?>" data-bs-interval="10000">
-                                    <a href="<?php the_permalink(); ?>">
-                                        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>" class="d-block w-100">
-                                    </a>
-                                    <div class="">
+                                    <a href="<?php the_permalink(); ?>" class="carousel-img">
+                                        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
                                         <div class="overlay"></div>
                                         <div class="carousel-caption captcontainer text-start">
                                             <h5 class="badge bg-danger">
-                                                <a href="#" class="text-decoration-none text-white">
+                                                <span href="#" class="text-decoration-none text-white">
                                                     <?php
                                                     $categories = get_the_category();
                                                     if (!empty($categories)) {
-                                                        $category_names = array();
-                                                        foreach ($categories as $category) {
-                                                            $category_names[] = $category->name;
-                                                        }
-                                                        echo esc_html(implode(', ', $category_names));
+                                                        echo esc_html($categories[0]->name);
                                                     }
                                                     ?>
-                                                </a>
+                                                </span>
                                             </h5><br>
                                             <h3><?php echo get_the_title(); ?></h3>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                         <?php
                                 $i++;
@@ -74,7 +68,7 @@
 
                     if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
                     ?>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-6 mb-4">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="card h-100">
                                     <?php
@@ -84,8 +78,7 @@
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
                                     <?php } ?>
                                     <div class="card-body">
-                                        <h5 class="card-title"><?php echo get_the_title(); ?></h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h6 class="card-title"><?php echo get_the_title(); ?></h6>
                                     </div>
                                 </div>
                             </a>
@@ -97,7 +90,7 @@
                     ?>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-4 mb-4">
                 <h3 class="mb-0 subtitle">Berita Populer</h3>
                 <div class="list-group">
                     <?php
@@ -147,6 +140,46 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-8 col-md-8 mb-4">
+            <h3 class="mt-4 mb-0 subtitle">Postingan Terbaru</h3>
+            <div class="row mx-1" id="post-list">
+                <?php
+                // Query untuk mengambil 8 post terbaru
+                $args = array(
+                    'posts_per_page' => 2,
+                );
+                $query = new WP_Query($args);
+
+                if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
+                ?>
+                    <div class="col-md-6 mb-4">
+                        <a href="<?php the_permalink(); ?>" class="list-group-item list-group-item-action border-0 small">
+                            <div class="row align-items-center my-2">
+                                <div class="col-4 img-thumb">
+                                    <?php
+                                    if (has_post_thumbnail()) { ?>
+                                        <img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
+                                    <?php } else { ?>
+                                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
+                                    <?php } ?>
+                                </div>
+                                <div class="col-8">
+                                    <h6><?php echo get_the_title(); ?></h6>
+                                    <small><?php echo get_the_date(); ?></small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                <?php endwhile;
+                    wp_reset_postdata();
+                else : ?>
+                    <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p>
+                <?php endif; ?>
+                <div class="text-center">
+                    <button id="load-more" class="btn btn-outline-secondary btn-sm">Load More</button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -174,74 +207,5 @@
     </div>
   </div>
 </div>
-
-<script>
-function sharePost(event, url) {
-    event.preventDefault();
-    if (navigator.share) {
-        navigator.share({
-            title: document.title,
-            url: url
-        }).then(() => {
-            updateShareCount(url);
-        }).catch((error) => console.log('Error sharing', error));
-    } else {
-        // Fallback for browsers that do not support the Web Share API
-        document.getElementById('shareButton').style.display = 'block';
-
-        document.getElementById('copyLinkBtn').addEventListener('click', function() {
-            copyToClipboard(url);
-        });
-
-        document.getElementById('shareWhatsAppBtn').addEventListener('click', function() {
-            shareViaWhatsApp(url);
-        });
-
-        document.getElementById('shareFacebookBtn').addEventListener('click', function() {
-            shareViaFacebook(url);
-        });
-
-        document.getElementById('shareTwitterBtn').addEventListener('click', function() {
-            shareViaTwitter(url);
-        });
-    }
-}
-
-function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(function() {
-        alert('Link copied to clipboard!');
-    }).catch(function(error) {
-        alert('Failed to copy link: ' + error);
-    });
-}
-
-function shareViaWhatsApp(url) {
-    const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(url)}`;
-    window.open(whatsappUrl, '_blank');
-    updateShareCount(url);
-}
-
-function shareViaFacebook(url) {
-    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
-    window.open(facebookUrl, '_blank');
-    updateShareCount(url);
-}
-
-function shareViaTwitter(url) {
-    const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`;
-    window.open(twitterUrl, '_blank');
-    updateShareCount(url);
-}
-
-function updateShareCount(url) {
-    fetch('<?php echo admin_url('admin-ajax.php'); ?>?action=increment_share_count&url=' + encodeURIComponent(url))
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                location.reload();
-            }
-        });
-}
-</script>
 
 <?php get_footer(); ?>
