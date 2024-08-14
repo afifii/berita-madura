@@ -10,41 +10,6 @@ function theme_files()
 }
 add_action( 'wp_enqueue_scripts', 'theme_files' );
 
-function load_more_posts() {
-  $offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
-  $args = array(
-      'posts_per_page' => 5,
-      'offset' => $offset,
-  );
-  $query = new WP_Query($args);
-
-  if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
-      <div class="col-md-6 mb-4">
-          <a href="<?php the_permalink(); ?>" class="list-group-item list-group-item-action border-0 small">
-              <div class="row align-items-center my-2">
-                  <div class="col-5 img-thumb">
-                      <?php
-                      if (has_post_thumbnail()) { ?>
-                          <img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
-                      <?php } else { ?>
-                          <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
-                      <?php } ?>
-                  </div>
-                  <div class="col-7">
-                      <h6><?php echo get_the_title(); ?></h6>
-                      <small><?php echo get_the_date(); ?></small>
-                  </div>
-              </div>
-          </a>
-      </div>
-  <?php endwhile;
-      wp_reset_postdata();
-  endif;
-
-  wp_die();
-}
-
-
 //Title Tag Support
 add_theme_support( 'title-tag' );
 
@@ -272,11 +237,5 @@ if (! function_exists('fa_custom_setup_kit') ) {
 }
 
 fa_custom_setup_kit('https://kit.fontawesome.com/4a7c8791e7.js');
-
-function theme_enqueue_scripts() {
-    wp_enqueue_script( 'jquery' );
-    wp_enqueue_script('custom-scripts', get_template_directory_uri() . './scripts.js', array('jquery'), null, true);
-}
-add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
 ?>
