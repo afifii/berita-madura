@@ -34,7 +34,7 @@
 				</div>
 				<div class="row mt-4">
 					<div class="col-12 text-center">
-						<p>&copy; <?php echo date('Y'); ?> Berita Madura. Dilindungi Hak Cipta.</p>
+						<p>&copy; <?php echo date('Y'); ?> Berita Madura.</p>
 					</div>
 				</div>
 			</div>

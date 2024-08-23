@@ -10,6 +10,62 @@ function theme_files()
 }
 add_action( 'wp_enqueue_scripts', 'theme_files' );
 
+function load_more_posts() {
+  $page = isset($_POST['page']) ? $_POST['page'] : 1;
+
+  $args = array(
+      'posts_per_page' => 9,
+      'paged' => $page,
+      'post_status' => 'publish',
+  );
+
+  $query = new WP_Query($args);
+
+  if ($query->have_posts()) :
+      while ($query->have_posts()) : $query->the_post(); ?>
+          <div class="col-md-4 mb-2">
+              <ul class="list-group">
+                  <li class="list-group-item list-group-item-action border-0 small">
+                      <a href="<?php the_permalink(); ?>">
+                          <div class="row">
+                              <div class="col-4 img-thumb-list">
+                                  <?php if (has_post_thumbnail()) { ?>
+                                      <img class="w-100" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title(); ?>">
+                                  <?php } else { ?>
+                                      <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php the_title(); ?>">
+                                  <?php } ?>
+                              </div>
+                              <div class="col-8">
+                                  <h6 class="mb-1"><?php the_title(); ?></h6>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      <?php endwhile;
+  else :
+      // Return a flag indicating no more posts
+      echo json_encode(array('no_more_posts' => true));
+  endif;
+
+  wp_reset_postdata();
+  die();
+}
+
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+
+function enqueue_load_more_script() {
+  wp_enqueue_script('load-more-js', get_template_directory_uri() . '/js/load-more.js', array('jquery'), null, true);
+
+  // Localize the script with the correct AJAX URL
+  wp_localize_script('load-more-js', 'ajax_params', array(
+      'ajax_url' => admin_url('admin-ajax.php'),
+  ));
+}
+add_action('wp_enqueue_scripts', 'enqueue_load_more_script');
+
 //Title Tag Support
 add_theme_support( 'title-tag' );
 

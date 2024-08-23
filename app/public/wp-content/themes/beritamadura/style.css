@@ -1,22 +1,33 @@
 /*
 Theme Name: Berita Madura Theme
 Theme URI: http://contoh.com
-Author: Nama Anda
+Author: Hafifi
 Author URI: http://contoh.com
 Description: Deskripsi Tema Anda
-Version: 1.0
+Version: 1.1
 */
 
 @font-face {
-    font-family: 'Patua One';
-    src: url('fonts/PatuaOne-Regular.ttf') format('truetype');
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica.ttf') format('truerype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,11 +35,18 @@ Version: 1.0
 .container {
     max-width: 1200px !important;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu';
+    font-weight: 500 !important;
+    font-style: normal;
+}
 body {
     background-color: #fff !important;
     padding-top: 60px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Helvetica' !important;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .dropdown-menu{
     font-size: small !important;
@@ -62,12 +80,11 @@ ul.dropdown-menu{
     left: 1.5rem !important;
     padding-bottom: 0 !important;
 }
-.carousel-caption h3{
-    font-family: 'Patua One', serif;
-}
-.subtitle{
-    font-family: 'Patua One', serif;
-    margin-left: 1rem;
+@media (max-width: 600px) {
+    .carousel-caption h3 {
+        font-size:larger !important;
+        font-weight: bold !important;
+    }
 }
 .carousel-item {    
     max-height: 450px;
@@ -91,17 +108,20 @@ ul.dropdown-menu{
         height: 250px !important;
     }
 }
-.img-thumb {
-    height: 80px;
+.img-thumb-card {
+    height: 200px !important;
     overflow: hidden;
 }
-.img-thumb2 {
-    height: 160px;
-    overflow: hidden;
+@media (max-width: 600px) {
+    .img-thumb-card {
+        height: 120px !important;
+        width: 100% !important;
+        overflow: hidden;
+    }
 }
-.img-thumb img {
-    max-width: 100%;
-    height: auto;
+.img-thumb-list {
+    height: 80px !important;
+    overflow: hidden;
 }
 a {
     color: rgb(0 0 0) !important;

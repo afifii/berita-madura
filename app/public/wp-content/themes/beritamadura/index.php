@@ -68,14 +68,17 @@
 
                     if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
                     ?>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-6 mb-4">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="card h-100">
                                     <?php
                                     if (has_post_thumbnail()) { ?>
-                                        <img class="card-img-top img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
-                                    <?php } else { ?>
-                                        <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
+                                        <div class="img-thumb-card">
+                                            <img class="card-img-top img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
+                                        </div>
+                                        <?php } else { ?>
+                                            <img class="card-img-top img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php echo get_the_title(); ?>">
+                                        
                                     <?php } ?>
                                     <div class="card-body">
                                         <h6 class="card-title"><?php echo get_the_title(); ?></h6>
@@ -91,12 +94,12 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <h3 class="mb-0 subtitle">Berita Populer</h3>
+                <h3 class="mb-0">Berita Populer</h3>
                 <div class="list-group">
                     <?php
                     // Query untuk mengambil 5 post dengan traffic tertinggi
                     $args = array(
-                        'posts_per_page' => 6,
+                        'posts_per_page' => 5,
                         'meta_key' => 'post_views_count',
                         'orderby' => 'meta_value_num',
                         'order' => 'DESC',
@@ -107,7 +110,7 @@
                     ?>
                         <a href="<?php the_permalink(); ?>" class="list-group-item list-group-item-action border-0 small">
                             <div class="row align-items-center my-2">
-                                <div class="col-5 img-thumb ">
+                                <div class="col-4 img-thumb-list">
                                     <?php
                                     if (has_post_thumbnail()) { ?>
                                         <img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo get_the_title(); ?>">
@@ -139,6 +142,73 @@
                     <?php endif; ?>
                 </div>
             </div>
+
+
+            <!-- Berita Terbaru -->
+            <div class="col-md-12 col-lg-12">
+                <h3>Berita Terbaru</h3>
+                <?php
+                // Query the latest 9 posts
+                $args = array(
+                    'posts_per_page' => 9,
+                    'post_status' => 'publish',
+                );
+
+                $query = new WP_Query($args);
+
+                if ($query->have_posts()) : ?>
+                    <div class="container">
+                        <div class="row">
+                            <?php
+                            $counter = 0;
+                            while ($query->have_posts()) : $query->the_post();
+                                $counter++;
+                                ?>
+                                <div class="col-md-4 mb-2">
+                                    <ul class="list-group">
+                                        <li class="list-group-item list-group-item-action border-0 small">
+                                            <a href="<?php the_permalink(); ?>">
+                                                <div class="row">
+                                                    <div class="col-4 img-thumb-list">
+                                                        <?php
+                                                        if (has_post_thumbnail()) { ?>
+                                                            <img class="w-100" src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title(); ?>">
+                                                        <?php } else { ?>
+                                                            <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.svg" alt="<?php the_title(); ?>">
+                                                        <?php } ?>
+                                                    </div>
+                                                    <!-- <div class="col-4 img-thumb-list">
+                                                        <?php
+                                                        if (has_post_thumbnail()) : ?>
+                                                            <img src="<?php the_post_thumbnail_url('medium'); ?>" class="img-fluid mb-2" alt="<?php the_title(); ?>">
+                                                        <?php
+                                                    
+                                                        endif; ?>
+                                                    </div> -->
+                                                    <div class="col-8">
+                                                        <h6 class="mb-1"><?php the_title(); ?></h6>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            <?php
+                            endwhile;
+                            wp_reset_postdata();
+                            ?>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-12 text-center">
+                                <button id="load-more" class="btn btn-outline-secondary border-0 btn-sm">Load More</button>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+            </div>
+
+
         </div>
     </div>
 </section>

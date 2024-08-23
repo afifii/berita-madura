@@ -3,6 +3,11 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="<?php the_title(); ?>" />
+	<meta property="og:description" content="<?php echo wp_trim_words(get_the_excerpt(), 30); ?>" />
+	<meta property="og:image" content="<?php echo get_the_post_thumbnail_url(); ?>" />
+	<meta property="og:url" content="<?php the_permalink(); ?>" />
+	<meta property="og:type" content="article" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php if (is_singular() && get_option('thread_comments')) wp_enqueue_script('comment-reply'); ?>
